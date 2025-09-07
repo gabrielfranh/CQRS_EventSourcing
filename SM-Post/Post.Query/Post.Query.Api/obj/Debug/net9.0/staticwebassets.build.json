@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "KteW2trIxrx0SdU0Il5ZMtEPUW5srYRwO6UGhpH+CZI=",
+  "Source": "Post.Query.Api",
+  "BasePath": "_content/Post.Query.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

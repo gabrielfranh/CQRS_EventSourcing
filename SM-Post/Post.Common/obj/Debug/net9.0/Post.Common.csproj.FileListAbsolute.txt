@@ -1,0 +1,16 @@
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/bin/Debug/net9.0/Post.Common.deps.json
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/bin/Debug/net9.0/Post.Common.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/bin/Debug/net9.0/Post.Common.pdb
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/bin/Debug/net9.0/CQRS.Core.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/bin/Debug/net9.0/CQRS.Core.pdb
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.csproj.AssemblyReference.cache
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.AssemblyInfoInputs.cache
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.AssemblyInfo.cs
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.csproj.CoreCompileInputs.cache
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.sourcelink.json
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Com.894DB8FF.Up2Date
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/refint/Post.Common.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/Post.Common.pdb
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/Debug/net9.0/ref/Post.Common.dll

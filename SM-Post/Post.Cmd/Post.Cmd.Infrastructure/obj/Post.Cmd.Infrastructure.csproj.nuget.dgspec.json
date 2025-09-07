@@ -4,6 +4,149 @@
     "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj": {}
   },
   "projects": {
+    "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+        "projectName": "CQRS.Core",
+        "projectPath": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj",
+        "packagesPath": "/home/gfh/.nuget/packages/",
+        "outputPath": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gfh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj",
+        "projectName": "Post.Cmd.Domain",
+        "projectPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj",
+        "packagesPath": "/home/gfh/.nuget/packages/",
+        "outputPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gfh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj": {
+                "projectPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +168,97 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              },
+              "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj": {
+                "projectPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.8, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[3.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.8, 9.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj",
+        "projectName": "Post.Common",
+        "projectPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj",
+        "packagesPath": "/home/gfh/.nuget/packages/",
+        "outputPath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gfh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj": {
+                "projectPath": "/home/gfh/Desktop/EventSourcingCourse/CQRS-ES/CQRS.Core/CQRS.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

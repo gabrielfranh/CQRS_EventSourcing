@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Post.Cmd.Api",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SM-Post/Post.Cmd/Post.Cmd.Api/bin/Debug/net9.0/Post.Cmd.Api.dll",
+      "cwd": "${workspaceFolder}/SM-Post/Post.Cmd/Post.Cmd.Api",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Post.Query.Api",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Post.Query.Api.dll",
+      "cwd": "${workspaceFolder}/SM-Post/Post.Query/Post.Query.Api",
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Run Both APIs",
+      "configurations": ["Post.Cmd.Api", "Post.Query.Api"]
+    }
+  ]
+}
