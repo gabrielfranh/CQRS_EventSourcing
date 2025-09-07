@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uW7IVfSGTEg=",
+  "success": true,
+  "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Common/Post.Common.csproj",
+  "expectedPackageFiles": [
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
