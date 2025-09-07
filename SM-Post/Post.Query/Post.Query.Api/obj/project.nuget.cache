@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Iuzm+exQFv0=",
+  "success": true,
+  "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/Post.Query.Api.csproj",
+  "expectedPackageFiles": [
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/home/gfh/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

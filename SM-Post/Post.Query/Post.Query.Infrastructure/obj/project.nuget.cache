@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wPI3rbvNA18=",
+  "success": true,
+  "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

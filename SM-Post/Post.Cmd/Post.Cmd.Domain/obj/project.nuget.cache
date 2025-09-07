@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MBP0815+Eqk=",
+  "success": true,
+  "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Domain/Post.Cmd.Domain.csproj",
+  "expectedPackageFiles": [
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
