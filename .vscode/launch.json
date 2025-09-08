@@ -8,7 +8,10 @@
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/SM-Post/Post.Cmd/Post.Cmd.Api/bin/Debug/net9.0/Post.Cmd.Api.dll",
       "cwd": "${workspaceFolder}/SM-Post/Post.Cmd/Post.Cmd.Api",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "env": {
+        "KAFKA_TOPIC": "SocialMediaPostEvents"
+      }
     },
     {
       "name": "Post.Query.Api",
@@ -17,7 +20,10 @@
       "preLaunchTask": "build",
       "program": "${workspaceFolder}/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Post.Query.Api.dll",
       "cwd": "${workspaceFolder}/SM-Post/Post.Query/Post.Query.Api",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "env": {
+        "KAFKA_TOPIC": "SocialMediaPostEvents"
+      }
     }
   ],
   "compounds": [
