@@ -53,6 +53,17 @@
           }
         }
       },
+      "Castle.Core/5.1.1": {
+        "dependencies": {
+          "System.Diagnostics.EventLog": "9.0.8"
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.1.0"
+          }
+        }
+      },
       "Confluent.Kafka/2.11.1": {
         "dependencies": {
           "librdkafka.redist": "2.11.1"
@@ -303,6 +314,20 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/9.0.8": {},
+      "Microsoft.EntityFrameworkCore.Proxies/9.0.8": {
+        "dependencies": {
+          "Castle.Core": "5.1.1",
+          "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.Caching.Memory": "9.0.8",
+          "Microsoft.Extensions.Logging": "9.0.8"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Proxies.dll": {
+            "assemblyVersion": "9.0.8.0",
+            "fileVersion": "9.0.825.36802"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/9.0.8": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.8",
@@ -1147,6 +1172,7 @@
         "dependencies": {
           "CQRS.Core": "1.0.0",
           "Confluent.Kafka": "2.11.1",
+          "Microsoft.EntityFrameworkCore.Proxies": "9.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.8",
           "Microsoft.Extensions.Hosting": "9.0.8",
           "Post.Query.Domain": "1.0.0"
@@ -1179,6 +1205,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "Castle.Core/5.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "path": "castle.core/5.1.1",
+      "hashPath": "castle.core.5.1.1.nupkg.sha512"
     },
     "Confluent.Kafka/2.11.1": {
       "type": "package",
@@ -1256,6 +1289,13 @@
       "sha512": "sha512-2EYStCXt4Hi9p3J3EYMQbItJDtASJd064Kcs8C8hj8Jt5srILrR9qlaL0Ryvk8NrWQoCQvIELsmiuqLEZMLvGA==",
       "path": "microsoft.entityframeworkcore.analyzers/9.0.8",
       "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Proxies/9.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1dss+1J4Sp5CzBb9cqfkmj0A688D266eAR4trHU4j3BRrcTOCWWn8zHRyvQ6f4Bk97V7XLSXpitOi5f4Xdr5dw==",
+      "path": "microsoft.entityframeworkcore.proxies/9.0.8",
+      "hashPath": "microsoft.entityframeworkcore.proxies.9.0.8.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/9.0.8": {
       "type": "package",

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SdL+6T8sLLw=",
+  "dgSpecHash": "iU2ahXUGYYM=",
   "success": true,
   "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Infrastructure/Post.Query.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/home/gfh/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/gfh/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
+    "/home/gfh/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/home/gfh/.nuget/packages/confluent.kafka/2.11.1/confluent.kafka.2.11.1.nupkg.sha512",
     "/home/gfh/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
     "/home/gfh/.nuget/packages/librdkafka.redist/2.11.1/librdkafka.redist.2.11.1.nupkg.sha512",
@@ -16,6 +17,7 @@
     "/home/gfh/.nuget/packages/microsoft.entityframeworkcore/9.0.8/microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
     "/home/gfh/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.8/microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",
     "/home/gfh/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.8/microsoft.entityframeworkcore.analyzers.9.0.8.nupkg.sha512",
+    "/home/gfh/.nuget/packages/microsoft.entityframeworkcore.proxies/9.0.8/microsoft.entityframeworkcore.proxies.9.0.8.nupkg.sha512",
     "/home/gfh/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.8/microsoft.entityframeworkcore.relational.9.0.8.nupkg.sha512",
     "/home/gfh/.nuget/packages/microsoft.entityframeworkcore.sqlserver/9.0.8/microsoft.entityframeworkcore.sqlserver.9.0.8.nupkg.sha512",
     "/home/gfh/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.8/microsoft.extensions.caching.abstractions.9.0.8.nupkg.sha512",

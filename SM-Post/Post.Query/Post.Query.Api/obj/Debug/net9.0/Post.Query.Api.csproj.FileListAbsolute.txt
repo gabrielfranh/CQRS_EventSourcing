@@ -142,3 +142,5 @@
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/Post.Query.Api.pdb
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/Post.Query.Api.genruntimeconfig.cache
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/ref/Post.Query.Api.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Castle.Core.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Proxies.dll
