@@ -8,6 +8,7 @@
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Post.Query.Api.pdb
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Azure.Core.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Azure.Identity.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Castle.Core.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Confluent.Kafka.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/DnsClient.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
@@ -15,6 +16,7 @@
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Proxies.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
@@ -142,5 +144,3 @@
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/Post.Query.Api.pdb
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/Post.Query.Api.genruntimeconfig.cache
 /home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/obj/Debug/net9.0/ref/Post.Query.Api.dll
-/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Castle.Core.dll
-/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Query/Post.Query.Api/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Proxies.dll

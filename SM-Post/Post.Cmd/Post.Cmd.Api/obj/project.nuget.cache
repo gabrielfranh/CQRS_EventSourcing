@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Nvcar7pV9nk=",
+  "dgSpecHash": "wlSDnh6RWmU=",
   "success": true,
   "projectFilePath": "/home/gfh/Desktop/EventSourcingCourse/SM-Post/Post.Cmd/Post.Cmd.Api/Post.Cmd.Api.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "/home/gfh/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
     "/home/gfh/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
     "/home/gfh/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
-    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.8/microsoft.aspnetcore.app.ref.9.0.8.nupkg.sha512"
+    "/home/gfh/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.9/microsoft.aspnetcore.app.ref.9.0.9.nupkg.sha512"
   ],
   "logs": []
 }

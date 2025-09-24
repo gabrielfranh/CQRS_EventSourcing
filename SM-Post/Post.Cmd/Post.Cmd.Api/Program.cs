@@ -3,6 +3,9 @@ using CQRS.Core.Domain;
 using CQRS.Core.Handlers;
 using CQRS.Core.Infrastructure;
 using CQRS.Core.Producers;
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization;
+using MongoDB.Bson.Serialization.Serializers;
 using Post.Cmd.Api.Commands;
 using Post.Cmd.Domain.Aggregates;
 using Post.Cmd.Infrastructure.Config;
@@ -37,6 +40,13 @@ dispatcher.RegisterHandler<DeletePostCommand>(commandHandler.HandleAsync);
 
 builder.Services.AddSingleton<ICommandDispatcher>(_ => dispatcher);
 
+if (!BsonSerializer.SerializerRegistry.GetSerializer<Guid>().GetType().Name.Contains("GuidSerializer"))
+{
+    BsonSerializer.RegisterSerializer(new GuidSerializer(GuidRepresentation.Standard));
+}
+
+builder.Services.AddControllers();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -49,5 +59,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 app.Run();

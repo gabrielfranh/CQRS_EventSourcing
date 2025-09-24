@@ -27,6 +27,8 @@ builder.Services.AddScoped<IEventConsumer, EventConsumer>();
 
 builder.Services.AddHostedService<ConsumerHostedService>();
 
+builder.Services.AddControllers();
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
@@ -39,5 +41,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapControllers();
 
 app.Run();
