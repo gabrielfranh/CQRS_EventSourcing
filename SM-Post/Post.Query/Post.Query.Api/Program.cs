@@ -36,7 +36,7 @@ var dispatcher = new QueryDispatcher();
 dispatcher.RegisterHandler<FindAllPostsQuery>(queryHandler.HandleAsync);
 dispatcher.RegisterHandler<FindPostByIdQuery>(queryHandler.HandleAsync);
 dispatcher.RegisterHandler<FindPostsByAuthorQuery>(queryHandler.HandleAsync);
-dispatcher.RegisterHandler<FindPostsByAuthorQuery>(queryHandler.HandleAsync);
+dispatcher.RegisterHandler<FindAllPostsWithCommentsQuery>(queryHandler.HandleAsync);
 dispatcher.RegisterHandler<FindPostsWithLikesQuery>(queryHandler.HandleAsync);
 builder.Services.AddSingleton<IQueryDispatcher<PostEntity>>(_ => dispatcher);
 
