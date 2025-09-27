@@ -1,0 +1,2 @@
+SELECT * FROM Post;
+SELECT * FROM Comment;
